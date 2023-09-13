@@ -43,11 +43,39 @@
 } */
 
 /* --------------------------- CSS for Question 4 --------------------------- */
-.profileButton {
+/* .app {
+  margin: 15% auto;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  border-radius: 7px;
+}
+
+button {
+  cursor: pointer;
+  width: 100px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.homePage, .profileButton, .settingsButton {
+  margin-right: 20px;
+}
+
+.dashboard {
   margin-right: 20px;
 }
 
 nav {
   text-align: right;
   margin: 20px 20px 0 0;
+} */
+
+/* --------------------------- CSS for Question 5 --------------------------- */
+.app {
+  align-items: center;
+  text-align: center;
 }
