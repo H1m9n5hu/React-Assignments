@@ -1,15 +1,14 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const Home = () => {
   return (
-    <>
-        <h1>Hello Everyone, This is our HomePage!</h1>
-        <div className='app'>
-            <div className='card'>
-            </div>
-        </div>
-    </>
+    <div>
+      <nav>
+        <NavLink className='product' to='/products'>Products</NavLink>
+      </nav>
+      <h1>This is our Home Page!</h1>
+    </div>
   )
 }
 

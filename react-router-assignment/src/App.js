@@ -3,13 +3,15 @@ import './App.css';
 // import Home from './Components/Question 1/Home';
 // import About from './Components/Question 1/About';
 // import Contact from './Components/Question 1/Contact';
-// import ErrorPage from './Components/Question 2/ErrorPage';
+import ErrorPage from './Components/Question 2/ErrorPage';
 // import Dashboard from './Components/Question 3/Dashboard';
 // import DashboardProfile from './Components/Question 3/DashboardProfile';
 // import DashboardSettings from './Components/Question 3/DashboardSettings';
 // import LoginPage from './Components/Question 4/LoginPage';
 // import ProtectedRoute from './Components/Question 4/ProtectedRoute';
 import Home from './Components/Question 5/Home';
+import Products from './Components/Question 5/Products';
+import DynamicComponent from './Components/Question 5/DynamicComponent';
 
 function App() {
   return (
@@ -23,8 +25,10 @@ function App() {
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/login' element={<LoginPage />}></Route>
           <Route path="/dashboard/profile" element={<DashboardProfile />} />
-          <Route path="/dashboard/settings" element={<DashboardSettings />} />
-          <Route path="/*" element={<ErrorPage />}></Route> */}
+          <Route path="/dashboard/settings" element={<DashboardSettings />} /> */}
+          <Route path="/*" element={<ErrorPage />}></Route>
+          <Route path='/products' element={<Products />}/>
+          <Route path='/products/dynamic/:productName' element={<DynamicComponent />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
