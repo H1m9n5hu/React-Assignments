@@ -22,10 +22,6 @@ const Accordion = () => {
   const [flag, setFlag] = useState(-1);
   const buttonHandler = (index) => {
     setFlag(flag === index ? -1 : index);
-    // if((flag === index))
-    //   document.querySelector('.content').style.display = 'block';
-    // else
-    //   document.querySelector('.content').style.display = 'none';
   }
   return (
     <>
