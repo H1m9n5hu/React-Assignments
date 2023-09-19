@@ -266,3 +266,60 @@ p {
   font-size: 22px;
   font-weight: 600;
 } */
+
+/* ------------------------------- CSS for Question 8 ---------------------------- */
+/* body {
+  height: 100vh;
+  background-image: url('./Question 8/kelli.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.app h1 {
+  font-family: 'Croissant One', cursive;
+  margin-top: 50px;
+}
+
+.contentContainer {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  width: 100%;
+  max-width: 540px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 40px auto 20px;
+  padding: 20px 50px 20px 50px;
+  border-radius: 10px;
+}
+
+.authorName {
+  text-align: right;
+}
+
+button {
+  font-size: 1em;
+  background-color: indianred;
+  cursor: pointer;
+  width: 100px;
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  font-family: 'Croissant One', cursive;
+  margin-left: 540px;
+  color: white;
+  transition: 0.4s;
+}
+
+button:hover {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+} */
+
+/* ------------------------------- CSS for Question 10 ---------------------------- */
