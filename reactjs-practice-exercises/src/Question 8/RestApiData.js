@@ -28,7 +28,7 @@ const RestApiData = () => {
   }, []);
 
   const buttonHandler = () => {
-    fetchAPIData(url, options);
+    
   }
 
   return (
@@ -38,7 +38,7 @@ const RestApiData = () => {
           <h2>{qoute}</h2>
           <p className='authorName'>Author's Name : {authorName}.</p>
         </div>
-        <button type='button' onClick={buttonHandler}>Next</button>
+        <button type='button' onClick={buttonHandler}>Start</button>
     </div>
   )
 }
